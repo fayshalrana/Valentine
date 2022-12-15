@@ -1,0 +1,945 @@
+/* // `xxl` applies to x-large devices  */
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+
+
+
+
+/* ......................................................  */
+
+
+
+
+
+/* // `xl` applies to large devices  */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    
+    .log_res a {
+        padding: 12px 20px 10px 20px;
+    }
+    .banner_text p {
+        font-size: 14px;
+    }
+
+    .serv_head h3 {
+        font-size: 18px;
+        padding-top: 18px;
+        line-height: 20px;
+    }
+
+    .serv_btm p {
+        font-size: 14px;
+    }
+
+    .hist_text .h_btm_t p {
+        font-size: 14px;
+    }
+    .hist_text .h_btm_t .hbt {
+        padding-top: 24px;
+    }
+    .gift_mdl p {
+        font-size: 14px;
+    }
+
+    .gift_mdl .gpt {
+        padding-top: 20px;
+    }
+
+    .gift_img {
+        position: absolute;
+        bottom: -45px;
+        right: -30px;
+    }
+
+    .ticket_p_text p {
+        font-size: 14px;
+    }
+
+    .ticket_btn a {
+        font-size: 14px;
+    }
+
+    .capt_img:hover .capt_btm_h {
+        top: 77%;
+    }
+
+    .of_name h3 {
+        font-size: 14px;
+    }
+
+    .of_text p {
+        font-size: 14px;
+    }
+
+    #officer {
+        padding: 70px 0;
+    }
+
+    .form {
+        top: -45%;
+    }
+
+    .news {
+        display: flex;
+        margin-left: 50px;
+    }
+
+    .news_text h2 {
+        font-size: 30px;
+    }
+
+    .news_text h5 {
+        font-size: 12px;
+    }
+
+    .f_name_email {
+        margin-top: 10px;
+        position: relative;
+    }
+
+    .contact_item {
+        display: flex;
+        padding: 0 30px;
+        flex-direction: column;
+    }
+
+    .con_text {
+        margin-top: 10px;
+    }
+
+    .con_text p {
+        font-size: 14px;
+        padding: 0 20px;
+    }
+
+    .ftr_last_text p {
+
+        line-height: 20px;
+    }
+
+}
+
+
+
+
+
+/* .....................................................  */
+
+
+
+
+/* // `lg` applies to medium devices  */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    /* header part  */
+    .navbar-toggler {
+        border: 1px solid #d50a51;
+    }
+
+    .navbar-toggler i {
+        color: #d50a51;
+        font-size: 20px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+        border: 4px solid #fad3e4;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        background: #fff;
+    }
+
+    .nav-item img {
+        display: none;
+    }
+
+    .log_res a {
+        border: 1px solid #fff;
+        background: #fff;
+    }
+
+    .log_res a:hover {
+        border: 1px solid #d50a51;
+    }
+
+    .log_res {
+        text-align: center;
+    }
+
+    /* header part  */
+    /* banner part  */
+    .banner_text {
+        padding-top: 115px;
+        padding-bottom: 100px;
+    }
+
+    .banner_text p {
+        padding: 30px 90px 60px 90px;
+    }
+
+    /* banner part  */
+    /* history part  */
+    .hist_text .h_btm_t p {
+        padding-right: 100px;
+        font-size: 14px;
+    }
+
+    /* history part  */
+    /* gift part  */
+    .gift_mdl p {
+        padding-right: 70px;
+    }
+
+    .gift_img {
+        display: none;
+    }
+
+    /* gift part  */
+    /* ticket part  */
+
+    .ticket_img {
+        padding: 0;
+    }
+
+    .ticket_p_text p {
+        font-size: 14px;
+        padding-left: 70px;
+        padding-bottom: 15px;
+    }
+
+    .gift_mdl p {
+        padding-right: 230px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .gift_mdl .gpt {
+        padding-top: 16px;
+    }
+
+    /* ticket part  */
+    /* service part  */
+    .offer_serv {
+        grid-gap: 40px;
+    }
+
+    .serv_text {
+        padding: 50px 0;
+    }
+
+    .service_items {
+        padding: 25px;
+    }
+
+    .serv_btm p {
+        font-size: 14px;
+    }
+
+    /* service part  */
+    /* shoot part  */
+    .capt_img:hover .capt_btm_h {
+        top: 80%;
+    }
+
+    .ticket_text {
+        text-align: right;
+        padding-top: 80px;
+    }
+
+    /* shoot part  */
+    /* counter part  */
+    .count_down {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 60px;
+    }
+
+    /* counter part  */
+    /* form part  */
+    .news {
+        margin-left: 35px;
+        text-align: center !important;
+
+    }
+
+    .form {
+        display: grid;
+        text-align: center;
+        padding: 30px 150px;
+        border-radius: 70px 0 !important;
+        top: -40%;
+    }
+
+    .f_name input {
+        width: 100%;
+    }
+
+    .f_email label {
+        width: 100%;
+    }
+
+    .f_email label i {
+        right: 9px;
+    }
+
+    /* form part  */
+    /* footer part  */
+    .footer_logo {
+        padding-top: 70px;
+    }
+
+    .con_grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .contact_item {
+        display: flex;
+        padding: 0 30px;
+        flex-direction: column;
+    }
+
+    .sss {
+        grid-column: 2 span/3;
+        padding: 0px 185px;
+    }
+
+    /* footer part  */
+
+
+}
+
+
+
+
+
+/* .........................................................  */
+
+
+/* // `md` applies to small devices  */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /* header part  */
+    .navbar-toggler {
+        border: 1px solid #d50a51;
+    }
+
+    .navbar-toggler i {
+        color: #d50a51;
+        font-size: 20px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+        border: 4px solid #fad3e4;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        background: #fff;
+    }
+
+    .nav-item img {
+        display: none;
+    }
+
+    .log_res a {
+        border: 1px solid #fff;
+        background: #fff;
+    }
+
+    .log_res a:hover {
+        border: 1px solid #d50a51;
+    }
+
+    .log_res {
+        text-align: center;
+    }
+
+    .log_res a {
+        font-size: 18px;
+        padding: 10px 14px;
+    }
+
+    /* header part  */
+    /* banner part  */
+    .banner_text {
+        padding: 100px 0;
+    }
+
+    .banner_text p {
+        font-size: 14px;
+        padding-top: 40px;
+    }
+
+    /* banner part  */
+    /* history part  */
+
+    .hist_text .h_btm_t p {
+        font-size: 14px;
+    }
+
+    .hist_text .h_btm_t .hbt {
+        padding-top: 16px;
+    }
+
+    .hist_text .h_head_t {
+        padding-top: 70px;
+    }
+
+    .h_h_shape {
+        top: 40px;
+    }
+
+    /* history part  */
+
+    /* gift part  */
+    .gift_img {
+        bottom: -33px;
+        left: 300px;
+    }
+
+    .gift_mdl p {
+        font-size: 14px;
+    }
+
+    .gift_mdl .gpt {
+        padding-top: 10px;
+    }
+
+    .gift_head .ght {
+        color: #d50a51;
+        font-size: 30px;
+        padding-bottom: 30px;
+    }
+
+    /* gift part  */
+
+    /* ticket part  */
+    .ticket_img {
+        padding-bottom: 60px;
+    }
+
+    .ticket_p_text p {
+        font-size: 14px;
+        padding-bottom: 18px;
+    }
+
+    .ticket_text {
+        padding-top: 70px;
+    }
+
+    /* ticket part  */
+    /* service part  */
+    .serv_btm p {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .serv_head h3 {
+        font-size: 18px;
+        padding-top: 12px;
+        line-height: 20px;
+    }
+
+    .capt_btm_h h3 {
+        font-size: 16px;
+    }
+
+    .capt_btm_h a {
+        font-size: 12px;
+    }
+
+    .capt_icons a {
+        margin: 12px 15px 0px 0;
+        display: flex;
+    }
+
+    .capt_icons i {
+        height: 35px;
+        width: 35px;
+        line-height: 33px;
+    }
+
+    .capt_img:hover .capt_btm_h {
+        top: 75%;
+    }
+
+    .ticket_h_text .ght {
+        font-size: 30px;
+    }
+
+    .ticket_btn a {
+        padding: 10px 16px 8px 16px;
+        font-size: 16px;
+    }
+
+    /* service part  */
+
+    /* counter part  */
+    .count_down {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+    }
+
+    /* counter part  */
+
+    /* slider part  */
+    #officer {
+        padding: 50px 0 140px 0;
+    }
+
+    .fa-chevron-circle-left::before,
+    .fa-circle-chevron-left::before {
+        display: none;
+    }
+
+    .fa-chevron-circle-right::before,
+    .fa-circle-chevron-right::before {
+        display: none;
+    }
+
+    .of_text p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .of_name h3 {
+        font-size: 14px;
+    }
+
+    .officer_one {
+        padding: 30px;
+    }
+
+    /* slider part  */
+    /* form part  */
+    .form {
+        display: grid;
+        text-align: center;
+    }
+
+    .f_name input {
+        width: 50%;
+    }
+
+    .f_email label {
+        width: 84%;
+    }
+
+    .f_email input {
+        width: 59%;
+    }
+
+    .f_email label i {
+        right: 140px;
+    }
+
+    .form {
+        border-radius: 70px 0;
+        top: -215px;
+    }
+
+    .news i {
+        font-size: 50px;
+        padding-top: 3px;
+    }
+
+    .news {
+        gap: 10px;
+    }
+
+    .news_text {
+        text-align: left;
+    }
+
+    /* form part  */
+    .footer_logo {
+        padding-top: 70px;
+    }
+
+    .contact_item {
+        flex-direction: column;
+    }
+
+    .con_icon i {
+        font-size: 24px;
+        height: 48px;
+        width: 48px;
+        line-height: 48px;
+    }
+
+    .con_text p {
+        padding: 10px 120px;
+        font-size: 14px;
+    }
+
+    .ftr_last_text p {
+        line-height: 20px;
+    }
+}
+
+
+/* .................................................  */
+
+
+/* // `sm` applies to x-small  */
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+    /* header part  */
+    section {
+        overflow: hidden;
+    }
+
+    .navbar-toggler {
+        border: 1px solid #d50a51;
+    }
+
+    .navbar-toggler i {
+        color: #d50a51;
+        font-size: 20px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+        border: 4px solid #fad3e4;
+    }
+
+    .navbar-nav {
+        text-align: center;
+        background: #fff;
+    }
+
+    .nav-item img {
+        display: none;
+    }
+
+    .log_res a {
+        border: 1px solid #fff;
+        background: #fff;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .log_res a:hover {
+        border: 1px solid #d50a51;
+    }
+
+    /* header part  */
+    /* banner part  */
+
+    .banner_text {
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+
+    .banner_text h1 {
+        font-size: 50px;
+    }
+
+    .banner_text h2 {
+        font-size: 45px;
+        padding-bottom: 10px;
+    }
+
+    .banner_text p {
+        font-size: 12px;
+        padding-bottom: 40px;
+    }
+
+    .banner_text a {
+        padding: 10px 12px 8px 14px;
+        font-size: 16px;
+    }
+
+    /* banner part  */
+    #history_part {
+        padding-top: 70px;
+        padding-bottom: 75px;
+    }
+
+    .hist_img {
+        padding-bottom: 30px;
+    }
+
+    .hist_text {
+        padding-top: 30px;
+    }
+
+    .h_h_shape {
+        left: 0;
+        top: 0px;
+    }
+
+    .hist_text .hht {
+        padding-bottom: 40px;
+        font-size: 30px;
+    }
+
+    .hist_text .h_btm_t p {
+        font-size: 12px;
+    }
+
+    .hist_text .h_btm_t .hbt {
+        padding-top: 18px;
+    }
+
+    .gift_head .ght {
+        padding-bottom: 38px;
+        font-size: 24px;
+    }
+
+    .gift_mdl p {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .gift_mdl .gpt {
+        padding-top: 20px;
+    }
+
+    .gift_btm a {
+        padding: 12px 14px 10px 16px;
+        font-size: 14px;
+        margin-right: 15px;
+    }
+
+    .gift_img {
+        display: none;
+    }
+
+    /* ticket part  */
+    #ticket {
+        padding: 45px 0;
+    }
+
+    .ticket_p_text p {
+        font-size: 12px;
+    }
+
+    .ticket_h_text .ght {
+        font-size: 24px;
+    }
+
+    .ticket_btn a {
+        font-size: 14px;
+    }
+
+    /* ticket part  */
+    /* service part  */
+
+    #service {
+        padding: 45px 0;
+    }
+
+    .service_items {
+        padding: 20px;
+    }
+
+    .offer_serv {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        text-align: center;
+    }
+
+    .serv_btm p {
+        font-size: 12px;
+    }
+
+    .serv_head h3 {
+        font-size: 18px;
+    }
+
+    /* service part  */
+    /* shoot part  */
+
+    .captures {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .capt_img:hover .capt_btm_h {
+        visibility: visible;
+        opacity: 1;
+        top: 76%;
+    }
+
+    .t_h_shape {
+        position: absolute;
+        top: 10px;
+        right: 0;
+    }
+
+    .ticket_h_text {
+        padding-top: 40px;
+    }
+
+    #shoot_part {
+        padding: 60px 0;
+    }
+
+    /* shoot part  */
+
+    /* counter part  */
+    #counter {
+        padding: 40px 0;
+    }
+
+    .c_down {
+        padding-bottom: 20px;
+    }
+
+    .c_down h2 {
+        font-size: 30px;
+    }
+
+    .c_down h4 {
+        padding-top: 0;
+        padding-bottom: 20px;
+        font-size: 24px;
+    }
+
+    /* counter part  */
+
+    /* slide part  */
+    .officer_one {
+        padding: 40px 20px;
+        margin: 40px 30px;
+    }
+
+
+    .of_text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .of_img_name {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: left;
+    }
+
+    .of_name {
+        padding: 20px 10px;
+    }
+
+    .of_name h2 {
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+
+    .of_name h3 {
+        line-height: 16px;
+        font-size: 11px;
+    }
+
+    .next {
+        display: none;
+    }
+
+    .prev {
+        display: none;
+    }
+
+    #officer {
+        padding-top: 65px;
+        padding-bottom: 100px;
+    }
+
+    .fa-chevron-circle-left::before,
+    .fa-circle-chevron-left::before {
+        content: "\f137";
+        display: none;
+    }
+
+    .fa-chevron-circle-right::before,
+    .fa-circle-chevron-right::before {
+        display: none;
+    }
+
+    /* slide part  */
+    .form {
+        /* display: flex; */
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .news {
+        margin-left: 0;
+    }
+
+    .news i {
+        font-size: 33px;
+        margin-left: 40px;
+        margin-top: 5px;
+    }
+
+    .news_text h2 {
+        font-size: 20px;
+    }
+
+    .news_text h5 {
+        font-size: 10px;
+        padding-top: 5px;
+    }
+
+    .f_name_email {
+        margin: 10px 28px;
+        text-align: center;
+    }
+
+    .f_name input {
+        font-size: 12px;
+    }
+
+    .f_email input {
+        padding: 12px 0 12px 11px;
+        font-size: 12px;
+    }
+
+    .form {
+        border-radius: 70px 0;
+        top: -85px;
+    }
+
+    .f_email label i {
+        padding: 15px 0 13px 13px;
+    }
+
+    /* footer part  */
+    .footer_logo {
+        padding-top: 200px;
+    }
+
+    .contact_item {
+        flex-direction: column;
+    }
+
+    .con_icon i {
+        font-size: 24px;
+        height: 48px;
+        width: 48px;
+        line-height: 48px;
+    }
+
+    .con_text p {
+        font-size: 12px;
+        padding: 10px 22px;
+    }
+
+    .ftr_last_text p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    /* footer part  */
+
+
+}
